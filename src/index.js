@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HelloMessage from './Components/firstcomponent';
+import GoodbyeMessage from './Components/secondcomponent';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HelloMessage />
+    <GoodbyeMessage/>
   </React.StrictMode>,
   document.getElementById('root')
 );
